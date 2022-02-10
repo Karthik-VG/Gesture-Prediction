@@ -21,8 +21,3 @@ class Data_loader:
                 temp=pd.concat([temp,df],axis=0,ignore_index=True)
 
         return temp
-
-
-
-data=Data_loader().load_bulk_data(r"D:\ineuron\ineuron internship\2.Gesture prediction using EEG data\Gesture Prediction\Gesture-Prediction\data\EMG_data_for_gestures-master")
-print(data)
